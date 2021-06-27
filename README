@@ -1,3 +1,8 @@
+
+TABLE CREATE QUERY
+
+---------------------
+
 CREATE TABLE jp.jp_news
 (
     news_source character varying(50) COLLATE pg_catalog."default" NOT NULL,
