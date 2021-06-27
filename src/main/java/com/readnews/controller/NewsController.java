@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.readnews.beans.FetchNewsBean;
 import com.readnews.service.NewsService;
 
+/**
+ * NewsController class is to map news mappings.
+ * @author Johnpeter Jesu
+ *
+ */
 @RequestMapping("/news")
 @RestController
 public class NewsController {
