@@ -1,0 +1,12 @@
+CREATE TABLE jp.jp_news
+(
+    news_source character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    news_content character varying COLLATE pg_catalog."default" NOT NULL,
+    news_link character varying COLLATE pg_catalog."default",
+    CONSTRAINT jp_news_pkey PRIMARY KEY (news_source, news_content)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE jp.jp_news
+    OWNER to postgres;
